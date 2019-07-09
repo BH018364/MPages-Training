@@ -1,0 +1,48 @@
+1.)
+	Q: What is the common flow for how an MPage is rendered to a user?
+	A: CCL Program, HTML file, JS/CSS loaded and ran, AJAX calls kicked off, and content loaded to placeholders
+2.)
+	Q: What are the two main differences (discussed in class) between coding in CCL and Javascript?
+	A: CCL is case-insensitive while JS is not, and CCL lists are one-based while JS arrays are zero-based.
+3.) 
+	Q: List some javascript functions that assist with Millennium application driven MPages.
+	A: APPLINK, CCLLINK, MPAGES_EVENT, and XMLCclRequest
+4.) 
+	Q: What are the 5 uses for MPAGES_EVENT?
+	A: ALLERGY, POWERFORM, POWERNOTE, ORDERS, CLINICALNOTE
+5.) 
+	Q: What are the 2 most common uses for APPLINK?
+	A: Link to another webpage or another Millennium Application
+6.) 
+	Q: True/False MPages that work in Millennium applications will always work on the webservice.
+	A: False
+7.) 
+	Q: What are the 3 data types used when creating custom components?
+	A: JSON, XML, and TEXT
+8.) 
+	Q: What does AJAX stand for?
+	A: Asynchronous Javascript and XML
+9.)
+	Q: What does JSON stand for?
+	A: JavaScript Object Notation
+10.)
+	Q: What does XML stand for?
+	A: eXtensible Markup Language
+11.)
+	Q: What is the difference between a "class" attribute and an "id" attribute?
+	A: "id" is unique while "class" is a grouping
+12.)
+	Q: What does CSS stand for?
+	A: Cascading Style Sheet
+13.)
+	Q: List 3 things to consider when writing custom components.
+	A: 	getTarget should be called from Render function only, 
+		component namespace should begin with client mnemonic, 
+		data displayed should be confined to the DOM object returned by getTarget
+14.)
+	Q: How can we flex custom components?
+	A: JS options
+15.)
+	Q: What is the variable used to return JSON or XML strings in CCL scripts for custom components?
+	A: _MEMORY_REPLY_STRING
+		
